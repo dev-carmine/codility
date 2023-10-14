@@ -9,4 +9,4 @@ def solution(A):
     
     for num, count in map.items():
         if count < 2:
-            return num
+            return numtest
