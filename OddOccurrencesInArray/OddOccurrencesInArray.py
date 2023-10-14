@@ -3,10 +3,7 @@
 
 def solution(A):
     # Implement your solution here
-    map = {}
+    result = 0
     for num in A:
-        map[num] = map.get(num, 0) + 1
-    
-    for num, count in map.items():
-        if count < 2:
-            return numtest
+        result ^= num
+    return result
